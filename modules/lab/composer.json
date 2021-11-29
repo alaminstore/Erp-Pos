@@ -1,0 +1,30 @@
+{
+    "name": "skylarksoft/lab",
+    "description": "Lab Module",
+    "license": "MIT",
+    "homepage": "https://skylarksoft.com",
+    "authors": [
+        {
+            "name": "Md. Asikur Islam",
+            "email": "md.asikurislam@gmail.com"
+        },
+        {
+            "name": "Md. Nazmus Saqib Khan",
+            "email": "ratulkhan.jhenidah@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "SkylarkSoft\\GoRMG\\Lab\\": "src"
+        }
+
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SkylarkSoft\\GoRMG\\Lab\\ServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
